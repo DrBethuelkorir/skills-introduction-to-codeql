@@ -18,7 +18,7 @@ default_books = [
 
 if __name__ == "__main__":
     cursor.execute(
-        '''CREATE TABLE books (name text, author text, read text)'''
+        CREATE TABLE books (name text, author text, read text)
     )
 
     for bookname, bookauthor, hasread in default_books:
