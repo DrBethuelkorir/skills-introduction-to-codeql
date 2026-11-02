@@ -14,6 +14,7 @@ default_books = [
     ("The Way of Kings", "Brandon Sanderson", False)
 ]
 
+"SELECT * FROM books WHERE name LIKE '%" + name + "%'"
 
 if __name__ == "__main__":
     cursor.execute(
